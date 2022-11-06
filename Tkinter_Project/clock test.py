@@ -14,7 +14,7 @@ erox.config(background='#000000')
 
 
 
-frame=Frame(erox)
+frame=Frame(erox,bg='black')
 
 title=Label(frame,text='Clock',font=("Times", 25, "bold italic"),background='black',foreground='#5C5C5F')
 title.pack(expand=YES)
